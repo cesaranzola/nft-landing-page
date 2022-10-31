@@ -1,3 +1,11 @@
+:root {
+	--primary-color: #5f29ae;
+	--secondary-color: #d0aaff;
+	--whity: #f5f5f5;
+    --link-color: #ef5039;
+    --hover-color1: #d4b44c;
+}
+
 html,
 body,
 div,
@@ -122,3 +130,59 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	color: #2b283a;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+#headerBox {
+	background-color: var(--primary-color);
+	color: var(--whity);
+	padding: 5rem;
+}
+
+#main-title {
+	font-size: 4rem;
+}
+
+#subThree {
+	color: var(--secondary-color);
+	font-size: 2rem;
+}
+
+#firsArtTitle {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+a {
+    text-decoration: underline dotted var(--link-color)
+}
+
+a:link {
+    color: var(--link-color);
+}
+a:visited {
+    color: var(--primary-color)
+
+}
+a:hover {
+    color: var(--hover-color1);
+}
+a:focus{
+
+}
+a:active {
+    color: var(--hover-color1);
+}
+
