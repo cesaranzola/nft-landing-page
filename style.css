@@ -329,7 +329,7 @@ footer {
 	#main-title {
 		font-size: 2rem;
 		text-align: center;
-		line-height: 2.5rem;
+		line-height: 1.5;
 	}
 	#conno {
 		color: var(--primary-color);
@@ -343,5 +343,32 @@ footer {
 	}
 	.img-fluid {
 		width: 80%;
+	}
+}
+
+@media (max-width: 700px) {
+	.btn-cont {
+		display: flex;
+		margin-bottom: 1em;
+	}
+
+	.itembtn button {
+		width: 100%;
+		margin-bottom: 0.5em;
+	}
+}
+
+@media (min-width: 700px) {
+	.btncont {
+		display: flex;
+		gap: 0.5em;
+	}
+
+	.itembtn button {
+		width: 100%;
+	}
+
+	.itembtn {
+		flex-grow: 1;
 	}
 }
